@@ -1,0 +1,11 @@
+import math
+altura= float(input("altura= "))
+radio= float(input("radio= "))
+areaBase=((math.pi)*(radio**2))
+areaLateral=(2*(math.pi)*(radio)*altura)
+areaTotal=((2*areaBase)+areaLateral)
+volumen= (areaBase*altura)
+print(areaBase,"área de la base")
+print(areaLateral,"área lateral")
+print(areaTotal,"área total")
+print(volumen,"volumen")
